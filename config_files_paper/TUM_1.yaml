@@ -1,0 +1,37 @@
+%YAML:1.0
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+
+#Sensor settings
+InputSensorType: 0
+InputDepthScaleFactor: 5000.0
+IntrinsicsImgSize.width: 640
+IntrinsicsImgSize.height: 480
+# Camera calibration and distortion parameters (OpenCV) 
+IntrinsicsCamFx: 517.3
+IntrinsicsCamFy: 516.5
+IntrinsicsCamCx: 318.6
+IntrinsicsCamCy: 255.3
+IntrinsicsCamK1: 0.262383
+IntrinsicsCamK2: -0.953104
+IntrinsicsCamP1: -0.005358
+IntrinsicsCamP2: 0.002628
+IntrinsicsCamK3: 1.163314
+
+cannyThreshold1: 80
+cannyThreshold2: 60
+InputCannyEdgeTh1: 80
+InputCannyEdgeTh2: 60
+InputSmoothEdgeImage: 0
+InputComputeGradientsForEdgeDetector: 0
+InputDatasetFile: "association.txt"
+InputDatasetFolder: "/media/sf_Datasets/freiburg1/rgbd_dataset_freiburg1_desk"
+InputReadGT: 1 #groundtruth.txt
+InputReadNFrames: 10000
+InputDepthMin: 0.1
+InputDepthMax: 5.2
+InputColorFormatRGB: 0
+#Input
+InputSkipFirstNFrames: 0
