@@ -21,16 +21,15 @@ IntrinsicsCamP1: -0.005358
 IntrinsicsCamP2: 0.002628
 IntrinsicsCamK3: 1.163314
 
-cannyThreshold1: 100
-cannyThreshold2: 50
-InputCannyEdgeTh1: 100
-InputCannyEdgeTh2: 50
+
+InputCannyEdgeTh1: 80
+InputCannyEdgeTh2: 60
 InputSmoothEdgeImage: 0
 InputComputeGradientsForEdgeDetector: 0
-InputDatasetFile: "association.txt"
-InputDatasetFolder: "/media/reslam/PortableSSD/freiburg1/rgbd_dataset_freiburg1_plant"
+InputDatasetFile: "associate.txt"
+InputDatasetFolder: "/data/CSI/CSI_SVN/KirasCSISmartCam3D/CSISmartScan3D_Daten/Daten_Testszenen/TUM/freiburg1/rgbd_dataset_freiburg1_desk2"
 InputReadGT: 1 #groundtruth.txt
-InputReadNFrames: 10000
+InputReadNFrames: 1500 #272
 InputDepthMin: 0.1
 InputDepthMax: 5.2
 InputColorFormatRGB: 0

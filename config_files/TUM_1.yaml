@@ -27,7 +27,7 @@ InputCannyEdgeTh2: 60
 InputSmoothEdgeImage: 0
 InputComputeGradientsForEdgeDetector: 0
 InputDatasetFile: "association.txt"
-InputDatasetFolder: "/media/sf_Datasets/freiburg1/rgbd_dataset_freiburg1_desk"
+InputDatasetFolder: "/media/sf_Datasets/freiburg1/rgbd_dataset_freiburg1_desk2"
 InputReadGT: 1 #groundtruth.txt
 InputReadNFrames: 10000
 InputDepthMin: 0.1

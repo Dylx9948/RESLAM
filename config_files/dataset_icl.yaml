@@ -23,10 +23,10 @@ InputCannyEdgeTh1: 40
 InputCannyEdgeTh2: 20
 InputSmoothEdgeImage: 0
 InputComputeGradientsForEdgeDetector: 0
-InputDatasetFile: "association.txt"
+InputDatasetFile: "associate.txt" #_reduced.txt"
 #InputDatasetFolder: "/data/CSI/CSI_SVN/KirasCSISmartCam3D/CSISmartScan3D_Daten/Daten_Testszenen/TUM/freiburg1/rgbd_dataset_freiburg1_desk"
-InputDatasetFolder: "/media/reslam/PortableSSD/icl_nuim/living_room_traj3_frei_png"
-InputReadNFrames: 10000
+InputDatasetFolder: "/data/CSI/CSI_SVN/KirasCSISmartCam3D/CSISmartScan3D_Daten/Daten_Testszenen/icl_nuim/lr_kt0"
+InputReadNFrames: 1900 #272
 InputDepthMin: 0.1
 InputDepthMax: 5.2
 InputColorFormatRGB: 0

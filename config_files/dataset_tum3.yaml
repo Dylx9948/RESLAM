@@ -23,17 +23,17 @@ Camera.height: 480
 
 #cannyThreshold1: 150
 #cannyThreshold2: 100
-cannyThreshold1: 30
-cannyThreshold2: 20
+cannyThreshold1: 80
+cannyThreshold2: 60
 
-InputCannyEdgeTh1: 30
-InputCannyEdgeTh2: 20
+InputCannyEdgeTh1: 80
+InputCannyEdgeTh2: 60
 InputSmoothEdgeImage: 0
 InputComputeGradientsForEdgeDetector: 0
-InputDatasetFile: "association.txt"
+InputDatasetFile: "associate.txt"
 #InputDatasetFolder: "/data/CSI/CSI_SVN/KirasCSISmartCam3D/CSISmartScan3D_Daten/Daten_Testszenen/TUM/freiburg3/rgbd_dataset_freiburg3_nostructure_texture_near_withloop"
-InputDatasetFolder: "/media/reslam/PortableSSD/freiburg3/rgbd_dataset_freiburg3_long_office_household"
-InputReadNFrames: 10000
+InputDatasetFolder: "/data/CSI/CSI_SVN/KirasCSISmartCam3D/CSISmartScan3D_Daten/Daten_Testszenen/TUM/freiburg3/rgbd_dataset_freiburg3_long_office_household"
+InputReadNFrames: 3832 #272
 InputDepthMin: 0.1
 InputDepthMax: 5.2
 InputColorFormatRGB: 0

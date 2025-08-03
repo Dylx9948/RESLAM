@@ -45,7 +45,7 @@ Input::readGTTrajectory()
 {
     PoseVector gtPoses;
     std::ifstream fileGtPoses;
-    const std::string gtFileName = (mSystemSettings.InputDatasetFolder+"/groundtruth.txt");
+    const std::string gtFileName = (mSystemSettings.InputDatasetFolder+"/groundtruth_tum.txt");
     fileGtPoses.open(gtFileName.c_str(),std::ios_base::in);
     I3D_LOG(i3d::info) << "Reading: " << gtFileName;
     if (!fileGtPoses.is_open())
